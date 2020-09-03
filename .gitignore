@@ -1,0 +1,20 @@
+# Ignore files ending in .a
+*.a
+
+# Ignore files ending in .a except lib.a
+!lib.a
+
+# Ignore the folder TODO in the root folder
+/TODO
+
+# Ignore all the files in the folder build
+build/
+
+#Ignore all the files ending in .txt directly in the folder docs
+docs/*.txt
+
+#Ignore all the files ending in .txt recursively in the folder docs 
+docs/**/*.txt
+
+#Ignore file SECRET
+SECRET
